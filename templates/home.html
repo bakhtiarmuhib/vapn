@@ -1,0 +1,322 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+  {% block content %}
+
+
+    <main class="home">
+
+
+
+        <section id="homepageCarousel" class="container carousel slide carousel-fade" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#homepageCarousel" data-bs-slide-to="0" class="pips active"></li>
+                <li data-bs-target="#homepageCarousel" data-bs-slide-to="1" class="pips "></li>
+                <li data-bs-target="#homepageCarousel" data-bs-slide-to="2" class="pips "></li>
+                <li data-bs-target="#homepageCarousel" data-bs-slide-to="3" class="pips "></li>
+                <li data-bs-target="#homepageCarousel" data-bs-slide-to="4" class="pips "></li>
+                <li data-bs-target="#homepageCarousel" data-bs-slide-to="5" class="pips "></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item slide1 active">
+                    <div class="slideImage">
+                        <img src="{% static '-/media/Images/Banner-images/Homepage-carousel/Qualifications-banner-image.jpg' %}" />
+                    </div>
+                    <div class="slideText">
+                        <h1>Accelerated route to qualify for CPFA and ACA designation and dual membership</h1>
+                        <p><br />
+                        </p>
+
+                        <div class="linkWrap">
+                            <a href="/qualifications/cpfa-and-aca-accelerated-route">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item slide2 ">
+                    <div class="slideImage">
+                        <img src="{% static '-/media/Images/Training/2022-Conferences/Conferences-banner-image.jpg' %}" />
+                    </div>
+                    <div class="slideText">
+                        <h1>Devolved Public Finance Live conferences</h1>
+
+
+                        <div class="linkWrap">
+                            <a href="/training/cipfa-conferences">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item slide3 ">
+                    <div class="slideImage">
+                        <img src="{% static '-/media/Images/Banner-images/Homepage-carousel/counter-fraud-training.jpg' %}" />
+                    </div>
+                    <div class="slideText">
+                        <h1>Tackling fraud demands specific skills – browse our courses</h1>
+
+
+                        <div class="linkWrap">
+                            <a href="/services/cipfa-solutions/fraud-and-corruption/training-and-events">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item slide4 ">
+                    <div class="slideImage">
+                        <img src="{% static '-/media/Images/Banner-images/Homepage-carousel/Apprenticeship-carousel.jpg' %}" />
+                    </div>
+                    <div class="slideText">
+                        <h1>Strengthen your finance and counter fraud teams</h1>
+
+
+                        <div class="linkWrap">
+                            <a href="/qualifications/cipfas-apprenticeship-programmes">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item slide5 ">
+                    <div class="slideImage">
+                        <img src="{% static '-/media/Images/Banner-images/Homepage-carousel/data-science.jpg' %}" />
+                    </div>
+                    <div class="slideText">
+                        <h1>Discover the power of data: our new Certificate in Data Science</h1>
+
+
+                        <div class="linkWrap">
+                            <a href="/training/accredited-training/cipfa-certificate-in-data-science">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item slide6 ">
+                    <div class="slideImage">
+                        <img src="{% static  '-/media/Images/Banner-images/Homepage-carousel/kite-flying.jpg' %}" />
+                    </div>
+                    <div class="slideText">
+                        <h1>A new member resource to help your career soar: CIPFA Career Hub</h1>
+
+
+                        <div class="linkWrap">
+                            <a href="/members/continuing-professional-development/career-hub">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container aboutCipfa">
+            <div class="row verticalSplit">
+                <div class="col-3 aboutTitle">
+                    <h2>Who we are</h2>
+                </div>
+                <div class="col-9 aboutText">
+                    <p>The Chartered Institute of Public Finance and Accountancy (CIPFA) is a UK-based international accountancy membership and standard-setting body. We are the only such body globally dedicated to public financial management.</p>
+                    <p>CIPFA believes that improving public services is the key to changing lives for the better and that good public financial management is central to achieving this ambition. Our educational and advisory services support our members, students
+                        and other public finance professionals throughout their careers &ndash; helping them add value to their teams and the organisations for which they work. Through our work, we help ensure public money is raised and spent with the
+                        highest degree of openness.</p>
+                    <p>We are committed to making a real difference to the world we live in.</p>
+                </div>
+            </div>
+
+            <div class="row horizontalSplit">
+                <div class="col aboutTitle">
+                    <h2>Who we are</h2>
+                </div>
+            </div>
+            <div class="row horizontalSplit">
+                <div class="col aboutText">
+                    <p>The Chartered Institute of Public Finance and Accountancy (CIPFA) is a UK-based international accountancy membership and standard-setting body. We are the only such body globally dedicated to public financial management.</p>
+                    <p>CIPFA believes that improving public services is the key to changing lives for the better and that good public financial management is central to achieving this ambition. Our educational and advisory services support our members, students
+                        and other public finance professionals throughout their careers &ndash; helping them add value to their teams and the organisations for which they work. Through our work, we help ensure public money is raised and spent with the
+                        highest degree of openness.</p>
+                    <p>We are committed to making a real difference to the world we live in.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container keyAccounts">
+            <div class="row">
+                <div class="col accountBox">
+                    <a href="/central-government" class="account" style="background-image: url('/-/media/Images/Banner-images/Homepage-carousel/abstract-2.jpg');">
+                        <div class="textWrap">
+                            <h4>Central Government</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col accountBox">
+                    <a href="/local-government" class="account" style="background-image: url('/-/media/Images/Banner-images/Homepage-carousel/abstract-2.jpg');">
+                        <div class="textWrap">
+                            <h4>Local Government</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col accountBox">
+                    <a href="/police" class="account" style="background-image: url('/-/media/Images/Banner-images/Homepage-carousel/abstract-2.jpg');">
+                        <div class="textWrap">
+                            <h4>Police</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col accountBox">
+                    <a href="/health" class="account" style="background-image: url('/-/media/Images/Banner-images/Homepage-carousel/abstract-2.jpg');">
+                        <div class="textWrap">
+                            <h4>Health</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col accountBox">
+                    <a href="/services/international" class="account" style="background-image: url('/-/media/Images/Banner-images/Homepage-carousel/abstract-2.jpg');">
+                        <div class="textWrap">
+                            <h4>International</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container bodyContent">
+            <div class="row">
+                <div class="col">
+                    <p>Every day public finance professionals face a range of complex and often interconnected issues, from embedding good financial management across their organisation to changing legislation, and helping tackle climate change. Find out
+                        how CIPFA can help:</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container themeAreas">
+            <div class="row">
+
+                <a class="col-12 col-sm-6 theme" href="/developing-leadership-and-skills">
+                    <div class="row textWrap verticalSplit">
+                        <div class="col-5 themeTitle">
+                            <h3>Developing Leadership and Skills</h3>
+                        </div>
+                        <div class="col-7">
+                            <div class="themeDescription">
+                                <p>People are an organisation&rsquo;s most important asset. However, the people challenges faced by public sector bodies are often more complex than for other types of organisations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row textWrap horizontalSplit">
+                        <div class="col-12 themeTitle">
+                            <h3>Developing Leadership and Skills</h3>
+                        </div>
+                        <div class="col-12">
+                            <div class="themeDescription">
+                                <p>People are an organisation&rsquo;s most important asset. However, the people challenges faced by public sector bodies are often more complex than for other types of organisations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="imageWrapOuter">
+                                <div class="imageWrapInner">
+                                    <img src="{% static '-/media/Images/Commercial-themes/leadership.jpg' %}" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div class="col d-none d-sm-block spacer"></div>
+                <a class="col-12 col-sm-6 theme" href="/building-governance-and-trust">
+                    <div class="row textWrap verticalSplit">
+                        <div class="col-5 themeTitle">
+                            <h3>Building Governance and Trust</h3>
+                        </div>
+                        <div class="col-7">
+                            <div class="themeDescription">
+                                <p>Public services need to be delivered against the backdrop of an increasingly challenging macro-environment and with an increasing need for transparency and trust.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row textWrap horizontalSplit">
+                        <div class="col-12 themeTitle">
+                            <h3>Building Governance and Trust</h3>
+                        </div>
+                        <div class="col-12">
+                            <div class="themeDescription">
+                                <p>Public services need to be delivered against the backdrop of an increasingly challenging macro-environment and with an increasing need for transparency and trust.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="imageWrapOuter">
+                                <div class="imageWrapInner">
+                                    <img src="{% static '-/media/Images/Commercial-themes/governance.jpg' %}" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-12 col-sm-6 theme" href="/increasing-financial-resilience">
+                    <div class="row textWrap verticalSplit">
+                        <div class="col-5 themeTitle">
+                            <h3>Increasing Financial Resilience</h3>
+                        </div>
+                        <div class="col-7">
+                            <div class="themeDescription">
+                                <p>Public sector organisations globally need to tackle a myriad of challenges as they strive to improve their resilience and financial management.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row textWrap horizontalSplit">
+                        <div class="col-12 themeTitle">
+                            <h3>Increasing Financial Resilience</h3>
+                        </div>
+                        <div class="col-12">
+                            <div class="themeDescription">
+                                <p>Public sector organisations globally need to tackle a myriad of challenges as they strive to improve their resilience and financial management.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="imageWrapOuter">
+                                <div class="imageWrapInner">
+                                    <img src="{% static '-/media/Images/Commercial-themes/resilience.jpg' %}" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div class="col d-none d-sm-block spacer"></div>
+                <a class="col-12 col-sm-6 theme" href="/protecting-place-and-planet">
+                    <div class="row textWrap verticalSplit">
+                        <div class="col-5 themeTitle">
+                            <h3>Protecting Place and Planet</h3>
+                        </div>
+                        <div class="col-7">
+                            <div class="themeDescription">
+                                <p>At CIPFA, we believe that improving public services is the key to improving the lives of people in their communities.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row textWrap horizontalSplit">
+                        <div class="col-12 themeTitle">
+                            <h3>Protecting Place and Planet</h3>
+                        </div>
+                        <div class="col-12">
+                            <div class="themeDescription">
+                                <p>At CIPFA, we believe that improving public services is the key to improving the lives of people in their communities.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="imageWrapOuter">
+                                <div class="imageWrapInner">
+                                    <img src="{% static '-/media/Images/Commercial-themes/Protecting-Place-and-Planet/planet.jpg' %}" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    {% endblock %}
+
+
+
+
+
+    

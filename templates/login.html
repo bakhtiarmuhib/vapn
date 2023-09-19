@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+  {% block content %}
+
+
+<div class="col-md-12">
+    <div class="row ">
+        <ul class="breadcrumb">
+            <li><a href="/">Home</a>&nbsp;<span class="separator">&#92;</span>&nbsp;</li><li class="current">Login</li>
+        </ul>
+    </div>
+</div>
+</div>
+
+                            
+<h1 >VAPN Login</h1>    
+
+<div id="ctl09_introDiv" class="intro">
+<p>You need to be logged into the website to progress further.</p>
+</div>
+
+                            <div class="clearfix" id="ctl17">
+                                <div class="secondary-content" id="ctl18">
+
+                                    
+<div>
+
+
+        <div id="login" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;LoginButton&#39;)">
+
+            
+            
+            
+            <div class="logincontainer">   <table class="table table-responsive" cellspacing="0" cellpadding="1" id="loginControl" style="border-collapse:collapse;">
+    <tr>
+        <td><table cellpadding="0">
+            <tr>
+                <td ><label for="UserName">Email address or screen name</label></td><td><input name="content_0$loginView$loginControl$UserName" type="text" id="UserName" class="form-control" /><span id="UserNameRequired" title="Email address or screen name is required" class="alert alert-danger" style="color:Red;visibility:hidden;">*</span></td>
+            </tr><tr>
+                <td ><label for="Password">Password</label></td><td><input name="content_0$loginView$loginControl$Password" type="password" id="Password" class="form-control" /><span id="PasswordRequired" title="Password is required" class="alert alert-danger" style="color:Red;visibility:hidden;">*</span></td>
+            </tr><tr>
+                <td colspan="2"><input type="submit" name="content_0$loginView$loginControl$LoginButton" value="Log In" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;content_0$loginView$loginControl$LoginButton&quot;, &quot;&quot;, true, &quot;content_0$loginView$loginControl&quot;, &quot;&quot;, false, false))" id="LoginButton" class="submit btn btn-primary btn-lg" /></td>
+            </tr><tr>
+                <td colspan="2"><a id="CreateUserLink" href="/register">Haven't registered on the website yet? You can register here.</a><br /><a id="PasswordRecoveryLink" href="/forgot-password">Can't remember your password? You can reset it here.</a></td>
+            </tr>
+        </table></td>
+    </tr>
+</table>
+             </div>
+        
+</div>
+    
+</div>
+<div class="pageContentToggle">
+<h2>Why register?</h2>
+<p>Once you are registered, and logged in you will be able to: </p>
+<ul>
+<li>purchase our publications<strong> </strong>and book a place on courses and events (and pay online by credit/debit card or invoice)</li>
+<li>access CIPFA services you/your organisation are subscribed to</li>
+<li>access a new &lsquo;My CIPFA&rsquo; area where you can see/amend the details CIPFA holds for you, manage your own account, tell us what you are interested in, and&nbsp;see which&nbsp;CIPFA services your organisation is subscribed to.</li>
+</ul>
+</div>
+                                </div>
+
+
+
+
+{% endblock %}
