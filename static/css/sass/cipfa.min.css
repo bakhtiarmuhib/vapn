@@ -377,22 +377,22 @@ header .nav-row .nav-item .nav-link:not(.myCipfaLogin):not(.learning):not(.logou
 @media all and (min-width:1200px) {
     header .nav-row .nav-item .nav-link {
         transform: skew(22deg);
-        border-left: 1px solid #312c62;
-        border-right: 1px solid #6453ab;
+        border-left: 1px solid #2698CA;
+        border-right: 1px solid #2698CA;
         padding: 7px 17px;
     }
 }
 
 header .nav-row .nav-item .nav-link.logout {
-    background: #c0046c;
-    border-left: 1px solid #a7035e;
-    border-right: 1px solid #d9057a;
+    background: #41a8a1;
+    border-left: 1px solid #41a8a1;
+    border-right: 1px solid #41a8a1;
 }
 
 header .nav-row .nav-item .nav-link.logout:hover {
-    background: #a7035e;
-    border-left: 1px solid #a7035e;
-    border-right: 1px solid #a7035e;
+    background: #41a8a1;
+    border-left: 1px solid #41a8a1;
+    border-right: 1px solid #41a8a1;
 }
 
 header .nav-row .nav-item .nav-link.learning {
@@ -428,23 +428,23 @@ header .nav-row .nav-item .nav-link.myCipfaLogin {
 }
 
 header .nav-row .nav-item .nav-link.myCipfaLogin:hover {
-    background: #007c75;
+    background: #2698CA;
 }
 
 @media all and (min-width:992px) {
     header .nav-row .nav-item .nav-link.myCipfaLogin:hover {
-        border-right: 1px solid #007c75;
+        border-right: 1px solid #2698CA;
     }
 }
 
 header .nav-row .nav-item .nav-link:hover {
-    background-color: #312c62;
+    background-color: #2698CA;
 }
 
 @media all and (min-width:992px) {
     header .nav-row .nav-item .nav-link:hover {
-        border-left: 1px solid #312c62;
-        border-right: 1px solid #312c62;
+        border-left: 1px solid #2698CA;
+        border-right: 1px solid #2698CA;
     }
 }
 
@@ -529,7 +529,7 @@ header .nav-row .loggedIn .nav-item .nav-link.myCipfaLogin {
 }
 
 .notification-bar.red {
-    background: #d81e00;
+    background: #2698CA
 }
 
 .notification-bar a {
@@ -825,7 +825,7 @@ footer .copyright {
     left: 0;
     width: 100%;
     transform: translateY(-50%);
-    background: rgba(101, 45, 136, .5);
+    background: rgba(	38, 152, 202, .5);
     padding: 15px 20px;
     color: #fff;
 }
@@ -1161,7 +1161,7 @@ footer .copyright {
     font-family: "Noto Serif JP", "Lucida Bright", serif;
     line-height: 24px;
     font-weight: 300;
-    color: #312c62;
+    color: #2698CA;
     background: none;
     padding: 0 0 0 0;
     margin: 10px 0 25px;
@@ -1231,7 +1231,7 @@ footer .copyright {
     font-size: 2rem;
     line-height: 24px;
     font-weight: 300;
-    color: #312c62;
+    color: #2698CA;
     background: none;
     padding: 0 0 0 0;
     margin: 10px 0 25px;
@@ -1242,7 +1242,7 @@ footer .copyright {
     font-size: 22px;
     font-size: 2.2rem;
     line-height: 28px;
-    color: #312c62;
+    color: #2698CA;
     margin: 25px 0 15px;
     font-weight: 600;
     font-family: "Muli", Arial, sans-serif;
@@ -1262,7 +1262,7 @@ footer .copyright {
     font-size: 20px;
     font-size: 2rem;
     line-height: 26px;
-    color: #312c62;
+    color: #2698CA;
     font-weight: 600;
     font-family: "Muli", Arial, sans-serif;
 }
@@ -1346,12 +1346,12 @@ footer .copyright {
 
 .landingTheme .table tr:nth-child(odd),
 .primaryContent .table tr:nth-child(odd) {
-    background: rgba(100, 83, 171, .25);
+    background: rgba(38, 152, 202, .25);
 }
 
 .landingTheme .table tr:first-of-type,
 .primaryContent .table tr:first-of-type {
-    background: #6453ab;
+    background: #2698CA;
     color: #fff;
 }
 
@@ -1431,7 +1431,6 @@ footer .copyright {
     width: 100%;
     object-fit: cover;
 }
-
 .landingTheme .carousel .carousel-inner .carousel-item .slideText,
 .primaryContent .carousel .carousel-inner .carousel-item .slideText {
     position: absolute;
@@ -1988,8 +1987,8 @@ footer .copyright {
     margin-top: 15px;
     margin-bottom: 10px;
     background: rgba(100, 83, 171, .25);
-    border-top: solid 5px #6453ab;
-    border-bottom: solid 5px #6453ab;
+    border-top: solid 5px #2698CA;
+    border-bottom: solid 5px #2698CA;
     padding: 0 10px;
 }
 

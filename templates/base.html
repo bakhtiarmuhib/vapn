@@ -48,7 +48,7 @@
 
 
     <!-- Google Tag Manager -->
-    <script>
+    <!-- <script>
         (function(w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
@@ -63,7 +63,7 @@
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-N28WBM');
-    </script>
+    </script> -->
     <!-- End Google Tag Manager -->
     <!-- Spotler/Gator Form -->
     <script src="https://cgtforms.com/cipfamiddlewarelz/smartforms/a60665b1-8c9e-4571-9604-55a209c15469.js" type="text/javascript"></script>
@@ -97,7 +97,7 @@
             </a>
             </div>
             <div class="col-md-3 text-center">
-                <a href="http://www.bing.com" target="_self" class="btn btn-tertiary">Leave site</a>
+                <a href="#" target="_self" class="btn btn-tertiary">Leave site</a>
             </div>
         </div>
     </div>
@@ -119,7 +119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4">
-                        <a href='/'><img src="{% static '-/media/vapn.jpg' %}" class="logo img img-fluid" alt="" width="168" height="64" /></a>
+                        <a href='/'><img src="{% static '-/media/vapn.jpg' %}" class="logo img img-fluid" alt="" width="200" height="80" /></a>
                     </div>
                 </div>
             </div>
@@ -136,7 +136,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <li class="nav-item myCipfaNav">
                                 <a href="{% url 'login' %}" class='nav-link myCipfaLogin'><span>Login</span></a> </li>
                             <li class="nav-item dropdown">
-                                <a href="/join" class="nav-link"><span>Join</span></a><i class="caret fas fa-caret-right dropdown-toggle" data-bs-toggle="dropdown"></i>
+                                <a href="{% url 'join' %}" class="nav-link"><span>Join</span></a><i class="caret fas fa-caret-right dropdown-toggle" data-bs-toggle="dropdown"></i>
                                 <ul class="dropdown-menu row" aria-labelledby="navbarDropdownMenuLink">
                                     <li>
                                         <a href='/join/why-join'>Why join</a>
@@ -154,12 +154,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <a href='/join/trainee-vacancies'>Trainee vacancies</a>
                                     </li>
                                     <li>
-                                        <a href='/join/cipfa-and-rutgers-university'>CIPFA and Rutgers University</a>
+                                        <a href='/join/cipfa-and-rutgers-university'>VAPN and Rutgers University</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="/members" class="nav-link"><span>Members</span></a><i class="caret fas fa-caret-right dropdown-toggle" data-bs-toggle="dropdown"></i>
+                                <a href="{% url 'members' %}" class="nav-link"><span>Members</span></a><i class="caret fas fa-caret-right dropdown-toggle" data-bs-toggle="dropdown"></i>
                                 <ul class="dropdown-menu row" aria-labelledby="navbarDropdownMenuLink">
                                     <li>
                                         <a href='/members/membership-benefits'>Membership Benefits</a>
@@ -200,7 +200,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="/qualifications" class="nav-link"><span>Qualifications</span></a><i class="caret fas fa-caret-right dropdown-toggle" data-bs-toggle="dropdown"></i>
+                                <a href="{% url 'qualifications' %}" class="nav-link"><span>Qualifications</span></a><i class="caret fas fa-caret-right dropdown-toggle" data-bs-toggle="dropdown"></i>
                                 <ul class="dropdown-menu row" aria-labelledby="navbarDropdownMenuLink">
                                     <li>
                                         <a href='/qualifications/professional-accountancy-qualification'>Professional Accountancy Qualification</a>
@@ -212,16 +212,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <a href='/qualifications/compliance-with-the-professional-qualifications-act'>Compliance with the Professional Qualifications Act</a>
                                     </li>
                                     <li>
-                                        <a href='/qualifications/cipfas-apprenticeship-programmes'>CIPFAs apprenticeship programmes</a>
+                                        <a href='/qualifications/cipfas-apprenticeship-programmes'>VAPNs apprenticeship programmes</a>
                                     </li>
                                     <li>
-                                        <a href='/qualifications/cpfa-and-aca-accelerated-route'>CPFA and ACA accelerated route</a>
+                                        <a href='/qualifications/cpfa-and-aca-accelerated-route'>VAPN and ACA accelerated route</a>
                                     </li>
                                     <li>
                                         <a href='/qualifications/student-policies-procedures-and-forms'>Student policies procedures and forms</a>
                                     </li>
                                     <li>
-                                        <a href='/qualifications/cipfa-futures'>CIPFA Futures</a>
+                                        <a href='/qualifications/cipfa-futures'>VAPN Futures</a>
                                     </li>
                                     <li>
                                         <a href='/qualifications/exams'>Exams</a>
@@ -241,7 +241,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="/training" class="nav-link"><span>Training</span></a><i class="caret fas fa-caret-right dropdown-toggle" data-bs-toggle="dropdown"></i>
+                                <a href="#" class="nav-link"><span>Training</span></a><i class="caret fas fa-caret-right dropdown-toggle" data-bs-toggle="dropdown"></i>
                                 <ul class="dropdown-menu row" aria-labelledby="navbarDropdownMenuLink">
                                     <li>
                                         <a href='/training/accredited-training'>Accredited Training</a>
@@ -277,12 +277,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <a href='/training/training-needs-analysis-service'>Training Needs Analysis Service</a>
                                     </li>
                                     <li>
-                                        <a href='/training/cipfa-conferences'>CIPFA conferences</a>
+                                        <a href='/training/cipfa-conferences'>VAPN conferences</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="/services" class="nav-link"><span>Services</span></a><i class="caret fas fa-caret-right dropdown-toggle" data-bs-toggle="dropdown"></i>
+                                <a href="{% url 'services' %}" class="nav-link"><span>Services</span></a><i class="caret fas fa-caret-right dropdown-toggle" data-bs-toggle="dropdown"></i>
                                 <ul class="dropdown-menu row" aria-labelledby="navbarDropdownMenuLink">
                                     <li>
                                         <a href='/services/achieving-finance-excellence-in-policing'>Achieving Finance Excellence in Policing</a>
@@ -294,10 +294,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <a href='/services/building-sustainable-social-care'>Building Sustainable Social Care</a>
                                     </li>
                                     <li>
-                                        <a href='/services/cipfa-solutions'>CIPFA Solutions</a>
+                                        <a href='/services/cipfa-solutions'>VAPN Solutions</a>
                                     </li>
                                     <li>
-                                        <a href='/services/cipfastats'>CIPFAstats</a>
+                                        <a href='/services/cipfastats'>VAPN stats</a>
                                     </li>
                                     <li>
                                         <a href='/services/commercial-mindset'>Commercial mindset</a>
@@ -306,7 +306,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <a href='/services/financial-resilience-index'>Financial Resilience Index</a>
                                     </li>
                                     <li>
-                                        <a href='/services/go-lab-cipfa-value-for-money-toolkit'>GO Lab-CIPFA Value for Money Toolkit</a>
+                                        <a href='/services/go-lab-cipfa-value-for-money-toolkit'>GO Lab-VAPN Value for Money Toolkit</a>
                                     </li>
                                     <li>
                                         <a href='/services/grantis'>GrantIS</a>
@@ -353,7 +353,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="/cipfa-thinks" class="nav-link"><span>CIPFA Thinks</span></a><i class="caret fas fa-caret-right dropdown-toggle" data-bs-toggle="dropdown"></i>
+                                <a href="{% url 'vapn_thinks' %}" class="nav-link"><span>VAPN Thinks</span></a><i class="caret fas fa-caret-right dropdown-toggle" data-bs-toggle="dropdown"></i>
                                 <ul class="dropdown-menu row" aria-labelledby="navbarDropdownMenuLink">
                                     <li>
                                         <a href='/cipfa-thinks/articles'>Articles</a>
@@ -365,7 +365,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <a href='/cipfa-thinks/central-government'>Central Government</a>
                                     </li>
                                     <li>
-                                        <a href='/cipfa-thinks/cipfa-speaks'>CIPFA Speaks</a>
+                                        <a href='/cipfa-thinks/cipfa-speaks'>VAPN Speaks</a>
                                     </li>
                                     <li>
                                         <a href='/cipfa-thinks/devolution'>Devolution</a>
@@ -391,7 +391,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="/policy-and-guidance" class="nav-link"><span>Policy and guidance</span></a><i class="caret fas fa-caret-right dropdown-toggle" data-bs-toggle="dropdown"></i>
+                                <a href="{% url 'policy_and_guidance' %}" class="nav-link"><span>Policy and guidance</span></a><i class="caret fas fa-caret-right dropdown-toggle" data-bs-toggle="dropdown"></i>
                                 <ul class="dropdown-menu row" aria-labelledby="navbarDropdownMenuLink">
                                     <li>
                                         <a href='/policy-and-guidance/articles'>Articles</a>
@@ -432,7 +432,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="/partners" class="nav-link"><span>Our partners</span></a><i class="caret fas fa-caret-right dropdown-toggle" data-bs-toggle="dropdown"></i>
+                                <a href="{% url 'partners' %}" class="nav-link"><span>Our partners</span></a><i class="caret fas fa-caret-right dropdown-toggle" data-bs-toggle="dropdown"></i>
                                 <ul class="dropdown-menu row" aria-labelledby="navbarDropdownMenuLink">
                                     <li>
                                         <a href='/partners/society-of-municipal-treasurers'>Society of Municipal Treasurers</a>
@@ -449,25 +449,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="/about-cipfa" class="nav-link"><span>About us</span></a><i class="caret fas fa-caret-right dropdown-toggle" data-bs-toggle="dropdown"></i>
+                                <a href="{% url 'about_vapn' %}" class="nav-link"><span>About us</span></a><i class="caret fas fa-caret-right dropdown-toggle" data-bs-toggle="dropdown"></i>
                                 <ul class="dropdown-menu row" aria-labelledby="navbarDropdownMenuLink">
                                     <li>
-                                        <a href='/about-cipfa/contact-cipfa'>Contact CIPFA</a>
+                                        <a href='#'>Contact VAPN</a>
                                     </li>
                                     <li>
-                                        <a href='/about-cipfa/customer-services'>Customer services</a>
+                                        <a href='#'>Customer services</a>
                                     </li>
                                     <li>
-                                        <a href='/about-cipfa/diversity-equality-and-inclusion'>Diversity equality and inclusion</a>
+                                        <a href='#'>Diversity equality and inclusion</a>
                                     </li>
                                     <li>
-                                        <a href='/about-cipfa/responding-to-covid-19'>Responding to COVID 19</a>
+                                        <a href='#'>Responding to COVID 19</a>
                                     </li>
                                     <li>
-                                        <a href='/about-cipfa/working-for-cipfa'>Working for CIPFA</a>
+                                        <a href='#'>Working for VAPN</a>
                                     </li>
                                     <li>
-                                        <a href='/about-cipfa/cipfas-governance-structure'>CIPFAs governance structure</a>
+                                        <a href='/about-cipfa/cipfas-governance-structure'>VAPNs governance structure</a>
                                     </li>
                                     <li>
                                         <a href='/about-cipfa/press-office'>Press office</a>
@@ -482,7 +482,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <a href='/about-cipfa/awards'>Awards</a>
                                     </li>
                                     <li>
-                                        <a href='/about-cipfa/build-your-profile-with-cipfa'>Build your profile with CIPFA</a>
+                                        <a href='/about-cipfa/build-your-profile-with-cipfa'>Build your profile with VAPN</a>
                                     </li>
                                     <li>
                                         <a href='/about-cipfa/conference-centre'>Conference centre</a>
@@ -490,7 +490,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </ul>
                             </li>
                             <li class="nav-item learn">
-                                <a href='/mycipfa' class='nav-link learning'><span>Learning</span></a>
+                                <a href='#' class='nav-link learning'><span>Learning</span></a>
                             </li>
                             <li class="nav-item search">
                                 <div class="nav-link searchLink">
@@ -543,18 +543,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-2">
-                    <a href='/'><img src="{% static '-/media/vapn.jpg' %}" class="logo img img-fluid" alt="CIPFA" width="164" height="63" /></a> </div>
+                    <a href='/'><img src="{% static '-/media/vapnFooter.png' %}" class="logo img img-fluid" alt="CIPFA" width="180" height="80" /></a> </div>
                 <div class="col-12 col-md-10">
                     <div class="row">
                         <div class="col-12 col-sm-6 col-lg-3 footerNav">
-                            <h4 class="hidden-xs">About CIPFA</h4>
+                            <h4 class="hidden-xs">About VAPN</h4>
                             <ul>
 
                                 <li><a href='/about-cipfa'>About us</a></li>
                                 <li><a href='/about-cipfa/contact-cipfa'>Contact us</a></li>
                                 <li><a href='/about-cipfa/conference-centre'>Conference Centre</a></li>
                                 <li><a href='/about-cipfa/press-office'>Press office</a></li>
-                                <li><a href='/about-cipfa/working-for-cipfa'>Working for CIPFA</a></li>
+                                <li><a href='/about-cipfa/working-for-cipfa'>Working for VAPN</a></li>
                                 <li>&nbsp;</li>
                                 <li class="row"><a href="https://www.linkedin.com/school/cipfa" class="col-2 social linkedin" target="_blank"><i class="fab fa-linkedin"></i></a><a href="https://twitter.com/CIPFA" class="col-2 social twitter" target="_blank"><i class="fab fa-twitter-square"></i></a>
                                     <a
@@ -576,8 +576,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <h4 class="hidden-xs">Qualifications</h4>
                             <ul>
 
-                                <li><a href='/qualifications/professional-accountancy-qualification'>Professional Accountancy Qualification (CIPFA PAQ)</a></li>
-                                <li><a href='/qualifications/students/cipfa-education-and-training-centre'>CIPFA Education and Training Centre (CETC)</a></li>
+                                <li><a href='/qualifications/professional-accountancy-qualification'>Professional Accountancy Qualification (VAPN PAQ)</a></li>
+                                <li><a href='/qualifications/students/cipfa-education-and-training-centre'>VAPN Education and Training Centre (CETC)</a></li>
                                 <li><a href='/qualifications/exemptions'>Exemptions</a></li>
                                 <li><a href='/qualifications/students/cipfa-education-and-training-centre/cetc-courses'>Enrol on CETC courses</a></li>
                                 <li><a href='/qualifications/students/study-options'>Study options  </a></li>
@@ -597,8 +597,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="row">
                 <div class="col charity">
-                    <p>Chartered Institute of Public Finance and Accountancy (CIPFA), registered with the Charity Commissioners of England and Wales No. 231060 and the Office of the Scottish Charity Regulator No.SC037963.<br /> CIPFA Business Limited, the
-                        trading arm of CIPFA that provides a range of services to public sector clients, registered in England and Wales no.2376684.<br /> Registered Office 77 Mansell Street, London E1 8AN</p>
+                    <p>Chartered Institute of Public Finance and Accountancy (VAPN), registered with the Charity Commissioners of England and Wales No. 231060 and the Office of the Scottish Charity Regulator No.SC037963.<br /> VAPN Business Limited, the
+                        trading arm of VAPN that provides a range of services to public sector clients, registered in England and Wales no.2376684.<br /> Registered Office 77 Mansell Street, London E1 8AN</p>
                 </div>
             </div>
             <div class="row">
@@ -620,19 +620,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
 
                 <div class="order-2 order-md-1 col-12 col-md-4 col-lg-3">
-                    <p class="copyright">Copyright &copy;2023 CIPFA</p>
+                    <p class="copyright">Copyright &copy;2023 VAPN</p>
                 </div>
             </div>
         </div>
-        <div>
-            <!-- LiveChat Snippet -->
-            <div class="_8x8_wrapper">
+        <!-- <div>
+            LiveChat Snippet -->
+            <!-- <div class="_8x8_wrapper">
                 <p class="_8x8_tooltip">Webchat is only available Monday to Friday, 09:00 - 17:00 (excluding UK bank holidays)</p>
                 <div id="__8x8-chat-button-container-script_1198492693645b9057abad74.15879181" class="liveChat_8"></div>
-            </div>
+            </div> -->
 
             <!-- This script will not interfere with the button layout, you just need to include it in the same page. It must also be within the <body> section of the page, preferably just before the ending tag. -->
-            <script type="text/javascript">
+            <!-- <script type="text/javascript">
                 window.__8x8Chat = {
                     uuid: "script_1198492693645b9057abad74.15879181",
                     tenant: "Y2lwZmF0aGVjaGFydGVyZWQwMQ",
@@ -652,12 +652,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     var os = document.getElementsByTagName("script")[0];
                     os.parentNode.insertBefore(se, os);
                 })();
-            </script>
+            </script> -->
 
 
             <!-- LiveChat End -->
 
-        </div>
+        <!-- </div> --> 
         <!-- Footer Snippet -->
         <script type="text/javascript">
             _linkedin_partner_id = "2115690";

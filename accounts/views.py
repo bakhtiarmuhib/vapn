@@ -88,27 +88,27 @@
 #                                             })
 
 
-# def activate(request,uidb64,token):
-#     try:
-#         uid = force_text(urlsafe_base64_decode(uidb64))
-#         myuser = User.objects.get(pk=uid)
-#     except (TypeError,ValueError,OverflowError,User.DoesNotExist):
-#         myuser = None
+def activate(request,uidb64,token):
+    try:
+        uid = force_text(urlsafe_base64_decode(uidb64))
+        myuser = User.objects.get(pk=uid)
+    except (TypeError,ValueError,OverflowError,User.DoesNotExist):
+        myuser = None
 
-#     if myuser is not None and generate_token.check_token(myuser,token):
-#         myuser.is_active = True
-#         # user.profile.signup_confirmation = True
-#         myuser.save()
-#         login(request,myuser)
-#         messages.success(request, "Your Account has been activated!!")
-#         return redirect('login')
-#     else:
-#         categories = NewsCategory.objects.all() 
-#         additionaldata= AdditionalData.objects.get(id=1)
-#         return render(request,'activation_failed.html',{
-#                                                 'categories':categories,
-#                                                 'additionaldata':additionaldata
-#                                             })
+    if myuser is not None and generate_token.check_token(myuser,token):
+        myuser.is_active = True
+        # user.profile.signup_confirmation = True
+        myuser.save()
+        login(request,myuser)
+        messages.success(request, "Your Account has been activated!!")
+        return redirect('login')
+    else:
+        categories = NewsCategory.objects.all() 
+        additionaldata= AdditionalData.objects.get(id=1)
+        return render(request,'activation_failed.html',{
+                                                'categories':categories,
+                                                'additionaldata':additionaldata
+                                            })
 
 
 # def signin(request):
